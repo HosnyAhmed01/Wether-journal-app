@@ -1,5 +1,8 @@
 // Setup empty JS object to act as endpoint for all routes
+const data = {};
+const express = reqiure('express');
 // Express to run server and routes
+
 
 // Start up an instance of app
 

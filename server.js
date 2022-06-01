@@ -21,8 +21,8 @@ app.use(express.static("website"));
 // Setup Server
 
 app.get("/", (req, res) => {
-  const data = req.body;
-  console.log(data);
+  // const data = req.body;
+  // console.log(data);
 });
 
 const port = 3000;
@@ -30,9 +30,7 @@ app.listen(port, () => {
   console.log("http://localhost:" + port);
 });
 
-const data = [];
-
 app.post("/", (req, res) => {
-  data.push(req.body);
-  console.log(req.body);
+  projectData.body = req.body;
+  console.log(projectData);
 });

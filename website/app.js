@@ -1,5 +1,5 @@
 /* Global Variables */
-let myapiKey = "ac1ff7ab7a50b6f1a59334c35bcc335c&units=imperial";
+const myapiKey = "ac1ff7ab7a50b6f1a59334c35bcc335c&units=imperial";
 // Create a new date instance dynamically with JS
 
 let d = new Date();
